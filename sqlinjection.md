@@ -1,6 +1,8 @@
 # Sql injection
-    It means attacker can access website's database using query related with perticular database.Mostly I used sqlmap tool for that
+
+ It means attacker can access website's database using query related with perticular database.Mostly I used sqlmap tool for that
 purpose.
+
  Types of sql injection:
 1)error based sql injection 2) union based sql injection
 3) boolean based sql injection 4) time based sql injection
