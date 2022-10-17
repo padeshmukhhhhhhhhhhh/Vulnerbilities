@@ -11,7 +11,19 @@ purpose.
   <body> <img src="https://avinetworks.com/wp-content/uploads/2020/04/sql-injection-attack-diagram.png" > </img>
   </body>
   </html>
+  
 # Steps
+
+  Manual way:
+  
+   1) Add OR 1=1-- this with parameter value, It gives true result always if parameter value             is wrong also. If this work, then there might be sql injection.
+    
+   2) For retrive the data use query like " ' UNION SELECT username, password FROM users-- "
+      with parameter value.
+
+   3) This are different for different database, For more information reffer            https://portswigger.net/web-security/sql-injection/cheat-sheet
+   
+   Automate way:
  
   1) First install sqlmap.py from https://github.com/sqlmapproject/sqlmap .
   2) visit http://magnus.jalatechnologies.com/bundles/styles?v=lPGPuSt_xKxNmptTCKJ8QNFrLXCkhCS7B-5FH-7RYpA1.
